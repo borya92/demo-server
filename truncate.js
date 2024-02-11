@@ -4,3 +4,5 @@ function truncate(value, index = 0) {
   } 
   return value.slice(0, index);
 }
+
+export default truncate;
