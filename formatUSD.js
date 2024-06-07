@@ -7,6 +7,9 @@ function formatUSD(value) {
   if (!value) {
     return 0;
   }
+
+  // logging
+  console.log('formatting...');
   return usd.format(value);
 }
 
